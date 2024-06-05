@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chemical Romance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href=https://www.mychemicalromance.com id="logo"><img src="img/myche.png"></a>
+            <ul class="sidebar">
+                <li onclick="closeSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                            width="24px" fill="Black">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="album.html">Albums</a></li>
+                <li><a href="personil.html">Personil</a></li>
+            </ul>
+            <ul>
+                <li class="responsive"><a href="index.html">Home</a></li>
+                <li class="responsive"><a href="album.html">Albums</a></li>
+                <li class="responsive"><a href="personil.html">Personil</a></li>
+                <li class="menu" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function closeSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display ='none'
+            }
+
+        </script>
+    </header>
+    <main>
+        <div id="content">
+            <h1>Albums</h1>
+            <article>
+                <h2>I Brought You My Bullets, You Brought Me Your Love</h2>
+                <img src="img/ibymb.jpg" />
+                <p>I Brought You My Bullets, You Brought Me Your Love merupakan sebuah album musik pertama karya My
+                    Chemical
+                    Romance dirilis tahun 2002. Lagu utama di album ini ialah Honey, This Mirror Isn't Big Enough for
+                    the
+                    Two of
+                    Us.</p>
+                <a href="https://open.spotify.com/album/3VSl97ITIbXoFQvx2DQ605?si=nfTLhONCTNWX07Am91pxAg"> <button>See
+                        Album</button></a>
+            </article>
+            <article>
+                <h2>Three Cheers for Sweet Revenge</h2>
+                <img src="img/threech.jpg" />
+                <p>Three Cheers For Sweet Revenge adalah album kedua dari band My Chemical Romance. Album ini dirilis
+                    pada
+                    tahun 2004 melalui Reprise Records.</p>
+                <a href="https://open.spotify.com/album/3DuiGV3J09SUhvp8gqNx8h?si=VaEI_rfGRrapkZXndThkcQ"> <button>See
+                        Album</button></a>
+            </article>
+            <article>
+                <h2>The Black Parade</h2>
+                <img src="img/parade.jpg" />
+                <p>The Black Parade adalah album studio ke-3 karya My Chemical
+                    Romance. Album ini dirilis pada tahun 2006 melalui Reprise Records dan diproduseri oleh Rob Cavallo.
+                    Album ini menjadi satu-satunya album yang mengandung permainan drum Bob Bryar sebagai anggota My
+                    Chemical Romance, setelah drummer mereka sebelumnya, Matt Pelissier, meninggalkan MCR pada Juli
+                    2004.
+                    Bob Bryar kemudian juga meninggalkan MCR pada Maret 2010. Album ini adalah album konsep dengan tema
+                    rock
+                    opera yang berkisah seputar karakter penderita kanker bernama "The Patient" yang sedang menemui
+                    kematian.</p>
+                <a href="https://open.spotify.com/album/0FZK97MXMm5mUQ8mtudjuK?si=r0o2vHXERP-VL40sPznd2Q"> <button>See
+                        Album</button></a>
+            </article>
+            <article>
+                <h2>Danger Days: The True Lives Of The Fabulous Killjoys</h2>
+                <img src="img/danger.jpg">
+                <p>Danger Days: The True Lives of the Fabulous Killjoys adalah album studio keempat karya band
+                    alternative
+                    rock Amerika My Chemical Romance. Album ini diproduseri oleh Rob Cavallo dan dirilis melalui Warner
+                    Music dan Reprise Records pada 19 November 2010. Album ini baru dirilis pada 22 November 2010 di
+                    Amerika
+                    Serikat melalui Reprise Records.</p>
+                <a href="https://open.spotify.com/album/2wPnKggTK3QhYAKL7Q0vvr?si=yQPZdiU9RFSYs9l6HxuxOQ"> <button>See
+                        Album</button></a>
+            </article>
+            <article>
+                <h2>Conventional Weapon</h2>
+                <img src="img/weapon.jpg">
+                <p>Senjata Konvensional adalah album kompilasi oleh band rock Amerika My Chemical Romance , diproduksi
+                    oleh
+                    Brendan O'Brien dan dirilis sebagai serangkaian single antara Oktober 2012 dan Februari 2013. Ini
+                    menandai rilis terakhir materi studio band sebelum mereka bubar pada tahun 2013. hingga 2019.</p>
+                <a href="https://open.spotify.com/playlist/5s5bl9uqnoGjmlrAz2w4cI?si=f3fcc545bb87433f"> <button>See
+                        Album</button></a>
+            </article>
+        </div>
+        <aside class="side-box">
+            <img src="img/mcrx.png" class="personil">
+            <h3>My Chemical Romance</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/mychemicalromance/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://open.spotify.com/artist/7FBcuc1gsnv6Y1nwFtNRCb"><i class="fab fa-spotify"></i></a>
+                </li>
+                <li><a href="https://x.com/mcrofficial"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCCZGYab5SpD0I7Z5JqJZgww"><i
+                            class="fab fa-youtube"></i></a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>My Chemical Romance &#169; 2024, Ziyad Nabil Yasya</p>
+    </footer>
+</body>
+
+</html>

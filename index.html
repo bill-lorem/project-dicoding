@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Chemical Romance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+            <a href=https://www.mychemicalromance.com id="logo"><img src="img/myche.png"></a>
+            <ul class="sidebar">
+                <li onclick="closeSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                            width="24px" fill="Black">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="album.html">Albums</a></li>
+                <li><a href="personil.html">Personil</a></li>
+            </ul>
+            <ul>
+                <li class="responsive"><a href="index.html">Home</a></li>
+                <li class="responsive"><a href="album.html">Albums</a></li>
+                <li class="responsive"><a href="personil.html">Personil</a></li>
+                <li class="menu" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function closeSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display ='none'
+            }
+
+        </script>
+    <main>
+        <div id="content">
+            <img src="img/cover.png" class="cover">
+            <h1>My Chemical Romance</h1>
+            <article>
+                <p>My Chemical Romance adalah grup musik asal New Jersey, yang dibentuk pada bulan September tahun 2001
+                    oleh
+                    Gerard Way dan Matt Pelissier. Saat ini, band ini beranggotakan Gerard Way (vokal), Mikey Way
+                    (bass),
+                    Ray
+                    Toro (lead guitar), dan Frank Iero (gitar ritme). Nama band ini terinspirasi oleh buku karangan
+                    Irvine
+                    Welsh
+                    yaitu Ecstasy: Three Tales of Chemical Romance. Mereka dianggap sebagai salah satu grup rock paling
+                    berpengaruh di tahun 2000-an dengan albumnya telah terjual lebih dari 10 juta keping dan sebagai
+                    artis
+                    besar
+                    dalam genre pop-punk dan emo, meskipun band menolak diklasifikasikan dalam genre yang terakhir.</p>
+            </article>
+            <article>
+                <h2>Sejarah My Chemical Romance</h2>
+                <p>Didirikan pada 12 September 2001 oleh Gerard, Mikey, Toro, dan drummer Matt Pelissier (dan kemudian
+                    diikuti oleh Iero), band ini menandatangani kontrak dengan Eyeball Records dan merilis album debut
+                    mereka, I Brought You My Bullets, You Brought Me Your Love pada 2002. Mereka menandatangani kontrak
+                    dengan label besar Reprise Records pada tahun 2003 dan merilis debut album mereka melalui label
+                    besar,
+                    Three Cheers For Sweet Revenge di tahun 2004. Tak lama setelah rilis album, Pelissier digantikan
+                    oleh
+                    Bob Bryar. Lewat single hit "I'm Not Okay (I Promise)", "Helena", dan "The Ghost of You", album ini
+                    sukses secara komersial, menjadi salah satu album yang mempopulerkan musik emo, mendapat status
+                    platinum
+                    di Amerika dalam waktu setahun dan terjual lebih dari 3 juta keping di seluruh dunia. Mereka
+                    mensupport
+                    album ini dengan memulai tur pada awal 2005 dengan The Used and Killswitch Engage, sebelum menjadi
+                    band
+                    pembuka selama konser American Idiot tour milik Green Day. Mereka kemudian tampil di Warped Tour
+                    2005
+                    bersama Fall Out Boy and menggelar tur bersama Alkaline Trio and Reggie and the Full Effect di
+                    Amerika.
+                </p>
+            </article>
+        </div>
+        <aside class="side-box">
+            <img src="img/mcrx.png" class="personil">
+            <h3>My Chemical Romance</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/mychemicalromance/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://open.spotify.com/artist/7FBcuc1gsnv6Y1nwFtNRCb"><i class="fab fa-spotify"></i></a>
+                </li>
+                <li><a href="https://x.com/mcrofficial"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCCZGYab5SpD0I7Z5JqJZgww"><i
+                            class="fab fa-youtube"></i></a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>My Chemical Romance &#169; 2024, Ziyad Nabil Yasya</p>
+    </footer>
+</body>
+</div>
+
+</html>
