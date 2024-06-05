@@ -90,7 +90,6 @@ main {
   height: fit-content;
   display: flex;
   gap: 2rem;
-  text-align: justify;
 }
 
 .side-box {
@@ -154,6 +153,7 @@ article h2 {
 
 article p {
   padding-top: 0.5rem;
+  text-align: justify;
 }
 
 .cover {
