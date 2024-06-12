@@ -193,7 +193,7 @@ button:hover {
 }
 
 .menu {
-  display: none;
+  display: none
 }
 
 @media screen and (max-width: 1200px) {
@@ -209,6 +209,9 @@ button:hover {
   }
   .menu {
     display: block;
+  }
+  .menu:hover {
+    border-radius: 999px;
   }
   nav {
     padding: 1.5rem;
